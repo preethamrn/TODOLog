@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: TODOLog
+scope: todo.log
+file_extensions: [todo]
+
+contexts:
+  main:
+    - match: (^D.*)
+      scope: text.done
+
+    - match: ^IP.*
+      scope: text.inprog
+
+    - match: ^PROG.*
+      scope: text.progress
+
+    - match: ^(T|[0-9]).*
+      scope: text.todo
+
+    - match: ^(N|R).*
+      scope: text.nope
+
+    - match: ^B.*
+      scope: text.backlog
