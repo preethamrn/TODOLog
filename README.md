@@ -1,6 +1,8 @@
 # TODOLog
 A few Sublime text files that help me create a TODO.txt file with a special color coding and a plugin that autocorrects numbering.
 
+In order to use this, copy all three files into the Packages/User folder in Sublime which can be found through Preferences: Browse Packages
+
 ## ColorScheme
 **T**odo | 1. (Red)<br/>
 **D**one (Green)<br/>
